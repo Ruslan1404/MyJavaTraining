@@ -28,6 +28,19 @@ public class Main {
         String frase = "Anyone who has never made" + "\n" + "a mistake has never tried" + "\n" + "anything new. Albert Einstein.";
         System.out.println(frase);
 
+        //раздел 1
+        //1) mercedes = 0
+        //volvo = 18
+        //opel = 0
+
+        //2) x = -4
+        //y = 0
+        //z = -4
+
+        //3) a = F
+        //b = F
+        //c = T
+
 
     }
 }
