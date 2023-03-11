@@ -1,4 +1,4 @@
-package Homework14.ex5;
+package homework14.ex5;
 
 public class Main {
     public static void main(String[] args) {

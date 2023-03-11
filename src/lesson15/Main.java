@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        /*System.out.println("Введите втроку");
+        /*Scanner input = new Scanner(System.in);
+        System.out.println("Введите втроку");
         String string = input.nextLine();
-        System.out.println(string);
+        System.out.println(string);*/
 
-        String string = input.next();
+        /*String string = input.next();
         System.out.println(string);
         String string2 = input.next();
         System.out.println(string2);
