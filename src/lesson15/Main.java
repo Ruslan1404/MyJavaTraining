@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+
         /*Scanner input = new Scanner(System.in);
         System.out.println("Введите втроку");
         String string = input.nextLine();
@@ -20,7 +22,8 @@ public class Main {
 
         System.out.printf("просто текст %b просто текст", 6);*/
 
-        System.out.printf("В кавычках \"%2$s\" должен быть текст. Тут тоже: %1$s", "String", "String2");
+        /*System.out.printf("В кавычках \"%2$s\" должен быть текст. Тут тоже: %1$s", "String", "String2");*/
+
 
 
     }
