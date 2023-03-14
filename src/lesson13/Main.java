@@ -2,6 +2,8 @@ package lesson13;
 
 public class Main {
     public static void main(String[] args) {
+
+
         /*int x = 3;
         double a = 0.5;
         boolean = true, false;
@@ -76,11 +78,13 @@ public class Main {
         String x = message + "best " + message2;
         System.out.println(x);*/
 
-        int y = 4;
+        /*int y = 4;
         String message = "Hello ";
         String message2 = "QA";
         String x = message + y + message2;
-        System.out.println(x);
+        System.out.println(x);*/
+
+
 
 
 
