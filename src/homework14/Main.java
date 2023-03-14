@@ -5,8 +5,8 @@ public class Main {
         String string ="Testing, is my favourite job";
         String[] words = string.split(" ");
         String word1 = words[0].replace(",", "");
-
         System.out.println(word1);
+
         String word2 = words[1];
         String word3 = words[2];
         String word4 = words[3];
