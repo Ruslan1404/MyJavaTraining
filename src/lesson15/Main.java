@@ -1,12 +1,11 @@
 package lesson15;
 
+import javax.xml.namespace.QName;
 import java.util.Date;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
-
 
         /*Scanner input = new Scanner(System.in);*/
         /*System.out.println("Введите втроку");
@@ -20,13 +19,13 @@ public class Main {
         String string3 = input.next();
         System.out.println(string3);*/
 
+
         //Formatter форматирование в виде след метода//
         //sys.out.printf(format,arguments)//
         //%n вставка символа новой строки//
         //%% вставка символа //
 
         /*System.out.printf("После знака %%n%nвсе должно начинаться%nс новой строки%n");*/
-
 
         /* %b булевое значение аргумента
         В Java работает след образом
@@ -57,8 +56,8 @@ public class Main {
         //%f Для работы с вещественными типами данных float, double
         /*System.out.printf("Отобразим число с плавающей точкой: %f" , 200.0546);*/
 
-        Date date = new Date();
-        System.out.println(date);
+        /*Date date = new Date();
+        System.out.println(date);*/
         //При форматировании даты и времени чаще всего используют два символа T и t
         //и различные суффиксы
 
@@ -81,6 +80,36 @@ public class Main {
         String string1 = "В кавычках %s должен быть текст.";
         String string2 = String.format(string1, "строка");
         System.out.println(string2);*/
+
+
+
+        /*String string1 = "Моё имя %1$s. Мой возраст %2$s. Но чувствую я себя на все %3$s.";
+        String string2 = String.format(string1, "Iryna", 35, 100);
+        System.out.println(string2);*/
+
+        /*String string = "Моё имя {name}. Мой возраст {age}. Но чувствую я себя на все {new age}.";
+        String string2 = string.replace("{name}", "%1$s")
+                .replace("{age}", "%2$d").
+                replace("{new age}", "%3$d");
+        System.out.println(string2);
+        System.out.printf(string2, "Iryna", 35, 100);*/
+
+
+        /*Scanner input = new Scanner(System.in);
+        System.out.println("Введите предложение");
+        String string = input.nextLine();
+        String[] words = string.split(" ");
+        String word2 = words[1];
+        String word3 = words[2];
+        String string2 = string.replace(word2, "\nконечно\n").replace(word3, "\b"+word3);
+        System.out.println(string2);*/
+
+        /*Date date = new Date();
+        System.out.printf("Напечатано сегодня в %1$tA, в %1$tH:%1$tM", date);*/
+
+
+
+
 
 
 
