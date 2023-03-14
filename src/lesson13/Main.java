@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        /*int x = 3;
+          /*int x = 3;
         double a = 0.5;
         boolean = true, false;
         char = a;*/
