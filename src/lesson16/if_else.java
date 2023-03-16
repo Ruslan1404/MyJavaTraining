@@ -2,9 +2,29 @@ package lesson16;
 
 import java.util.Scanner;
 
- public class Main {
+ public class if_else {
     public static void main(String[] args) {
-       /*   if(условие){
+
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите строку");
+        String string = in.nextLine();
+        int count = string.split(" ").length;
+        if(count>12&&count<20&&count%3!=0) {
+            System.out.println("блок1");
+        } else if (count>3&&count<9&&count%2==0) {
+            System.out.println("блок2");
+        } else if(count==3) {
+            System.out.println("блок3");
+        } else {
+            System.out.println("ничего");
+
+        }
+
+    }
+
+    }
+
+    /*   if(условие){
           (этот блок выполнится
           если условие = true);
     } else {
@@ -20,10 +40,10 @@ import java.util.Scanner;
         } else
          {
             System.out.println("Блок else");*/
-        }
 
 
-        //Задана стоимость билета по маршруту Днепр - Киев.
+
+        /*Задана стоимость билета по маршруту Днепр - Киев.
         //В зависимости от возраста предоставляется скидка
         /*double cost = 500;
         Scanner in = new Scanner(System.in);
@@ -45,5 +65,5 @@ import java.util.Scanner;
         }*/
 
 
-    }
+
 
