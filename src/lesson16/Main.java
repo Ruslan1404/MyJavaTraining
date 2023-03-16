@@ -2,7 +2,7 @@ package lesson16;
 
 import java.util.Scanner;
 
-public class Main {
+ public class Main {
     public static void main(String[] args) {
        /*   if(условие){
           (этот блок выполнится
@@ -12,16 +12,15 @@ public class Main {
           если условие = false);
           }*/
 
-        int x = 15;
+        /*int x = 15;
         if(x<10){
             System.out.println("Блок if");
         } else if (x>20) {
             System.out.println("Блок else if");
         } else
          {
-            System.out.println("Блок else");
+            System.out.println("Блок else");*/
         }
-
 
 
         //Задана стоимость билета по маршруту Днепр - Киев.
@@ -47,4 +46,4 @@ public class Main {
 
 
     }
-}
+
