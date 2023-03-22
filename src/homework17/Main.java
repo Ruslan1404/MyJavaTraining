@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        //Задание 5//
         Scanner in = new Scanner(System.in);
         System.out.println("Insert number of *");
         int count = in.nextInt();
