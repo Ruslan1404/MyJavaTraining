@@ -3,10 +3,10 @@ package homework17;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
 
         //Задание 5//
-        Scanner in = new Scanner(System.in);
+        /*Scanner in = new Scanner(System.in);
         System.out.println("Insert number of *");
         int count = in.nextInt();
         for(int i = count; i>0; i--){
@@ -18,6 +18,21 @@ public class Main {
                 }
             }
             System.out.println("");
+        }*/
+
+
+    //Задание 3//
+    public static void main(String[] args) {
+        int[] array = new int[45];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = ((int) (Math.random() * 45) - 50);
         }
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i]);
+        }
+
     }
 }
+
+
+
